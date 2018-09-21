@@ -13,6 +13,7 @@ namespace DotNetCore.Pages
         public void OnGet()
         {
             Message = "Your application description page.";
+            throw new Exception("Test Exception");
         }
     }
 }
