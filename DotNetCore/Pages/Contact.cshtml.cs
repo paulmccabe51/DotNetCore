@@ -13,6 +13,13 @@ namespace DotNetCore.Pages
         public void OnGet()
         {
             Message = "Your contact page.";
+            throw new ContactException("Contact Exception");
         }
+    }
+
+    public class ContactException : Exception
+    {
+        public ContactException(string message) : base(message) { }
+ 
     }
 }

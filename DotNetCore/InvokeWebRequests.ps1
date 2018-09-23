@@ -7,5 +7,5 @@ for ($i = 0 ; $i -lt 20; $i++)
 
 for ($i = 0 ; $i -lt 20; $i++)
 {
- Invoke-WebRequest -uri http://localhost:44606/Contact
+ Invoke-WebRequest -uri http://dotnetcore-pmc.azurewebsites.net/
 }
